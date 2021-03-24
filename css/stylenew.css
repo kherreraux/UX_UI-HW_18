@@ -152,6 +152,8 @@ button:hover {
 .about_skills {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
 
 /* About Section Only*/
@@ -226,7 +228,7 @@ button:hover {
 /* My Work Section*/
 .myWork {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns:1fr;
 }
 
 #section_title {
