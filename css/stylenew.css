@@ -147,7 +147,6 @@ button:hover {
 
 .flexContainer div {
   width: 33%;
-  margin: auto;
   padding: 16px;
 }
 .about_skills {
@@ -180,14 +179,18 @@ button:hover {
 }
 
 .about img {
-  padding: 40px;
+  padding: 0px;
 }
 
 /* Skills Section Only*/
+.sidebyside{
+  display: flex;
+  flex-direction: row;
+}
 .mySkills {
   background-image: url("../images/skills_rectangle.png");
   background-repeat: no-repeat;
-  margin: 40px;
+  margin-left: 0px;
   padding: 16px;
   float: right;
 }
@@ -210,13 +213,12 @@ button:hover {
   font-size: 14px;
   list-style-type: none;
   margin-right: 8px;
-  padding: 0px;
+  padding: 8px;
   color: #111035;
 }
 
 .mySkills li {
-  display: inline-block;
-  padding: 8px;
+  padding: 0px;
   font-weight: normal;
   font-family: poppins;
 }
